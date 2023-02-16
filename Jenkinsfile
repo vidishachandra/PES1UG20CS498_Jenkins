@@ -10,7 +10,7 @@ pipeline {
             }
         }
 
-        stage('Test') {
+        stage('Test' {
             steps {
                 sh 'cat working.cpp'
                 echo 'Test successful'
